@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Norwegian Key Helper",
+  "version": "1.0",
+  "description": "Alt+o => ø | Alt+a => å | Alt+e => æ | Shift+Alt+o => Ø | Shift+Alt+a => Å | Shift+Alt+e => Æ",
+  "author": "ilia kravtsov",
+  "icons": {
+    "16": "icons/square.png",
+    "48": "icons/square.png",
+    "128": "icons/square.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

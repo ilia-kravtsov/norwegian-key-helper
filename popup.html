@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #f6f9ff, #eef3ff);
+            color: #1f2937;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 0 0 12px 0;
+            text-align: center;
+            color: #111827;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 8px 6px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        td:first-child {
+            font-weight: 500;
+            color: #374151;
+        }
+
+        td:last-child {
+            text-align: right;
+            font-size: 16px;
+            font-weight: 600;
+            color: #2563eb;
+        }
+
+        tr:hover {
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+
+        .footer {
+            margin-top: 10px;
+            font-size: 11px;
+            text-align: center;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <h2>Norwegian Key Helper</h2>
+
+    <div class="card">
+        <table>
+            <tr><td>Alt + O</td><td>ø</td></tr>
+            <tr><td>Alt + A</td><td>å</td></tr>
+            <tr><td>Alt + E</td><td>æ</td></tr>
+            <tr><td>Shift + Alt + O</td><td>Ø</td></tr>
+            <tr><td>Shift + Alt + A</td><td>Å</td></tr>
+            <tr><td>Shift + Alt + E</td><td>Æ</td></tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        Works on all websites with text input fields
+    </div>
+
+</div>
+</body>
+</html>
