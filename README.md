@@ -21,17 +21,13 @@ Works on Chrome:
 
 ## Installation (from ZIP file)
 
-If you downloaded this project as a ZIP archive:
+Download this project as a ZIP archive:
 
 ### 1. Unzip the project
-Extract the ZIP file to any folder on your computer.
-
-Example:
-
-C:\Users\YourName\Downloads\norwegian-key-helper
+Extract the ZIP file to any folder on your computer
 
 ### 2. Open Chrome Extensions page
-Open Google Chrome and go to url:
+Open Google Chrome and insert to url:
 
 chrome://extensions/
 
@@ -39,20 +35,12 @@ chrome://extensions/
 In the top-right corner, turn ON Developer mode
 
 ### 4. Load the extension
-Click the button:
+Click the button: "Load unpacked"
 
-Load unpacked
-
-Then select the folder where you unzipped the project.
-
-Make sure you select the folder that contains:
-- manifest.json
-- content.js
-- popup.html
-- icons/
+Then select the folder where you unzipped the project
 
 ### 5. Done
-The extension is now installed and ready to use.
+The extension is now installed and ready to use
 
 ## How to use
 
@@ -71,7 +59,6 @@ Hold **Shift** for uppercase letters:
 ## Notes
 
 - Works only when typing inside input fields or textareas.
-- If a shortcut does not work, make sure the cursor is inside a text field.
 - Some websites may override keyboard shortcuts.
 
 ## Author
